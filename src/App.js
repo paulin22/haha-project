@@ -5,7 +5,7 @@ import './App.css';
 import HomeScreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen';
 
-function App() {
+function App(){
 
   const openMenu = () => {
     document.querySelector(".sidebar").classList.add("open");
